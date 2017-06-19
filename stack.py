@@ -1,5 +1,5 @@
 """
-Module for stack Data-Structure
+Module for stack Data-Structure.
 """
 
 class Stack(object):
