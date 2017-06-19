@@ -1,6 +1,6 @@
-""""
+"""
 Module for stack Data-Structure
-""""
+"""
 
 class Stack(object):
     """
@@ -23,17 +23,17 @@ class Stack(object):
         """
         Poping the last element of the list
         """
-        self.st[len(self.st)-1]
+        del self.st[len(self.st)-1]
     
     def display(self):
         print self.st
-        
-    if __name__ == "__main__":
-        st = Stack()
-        st.display()
-        st.push(34)
-        st.push(67)
-        st.display()
-        st.pop()
-        st.display()
-        
+
+if __name__ == "__main__":
+    st = Stack()
+    st.display()
+    st.push(34)
+    st.push(67)
+    st.display()
+    st.pop()
+    st.display()
+    
